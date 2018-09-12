@@ -1,0 +1,11 @@
+D:\Dev Project\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.exe.config
+D:\Dev Project\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.exe
+D:\Dev Project\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.pdb
+D:\Dev Project\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csprojResolveAssemblyReference.cache
+D:\Dev Project\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.Properties.Resources.resources
+D:\Dev Project\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csproj.GenerateResource.Cache
+D:\Dev Project\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.exe
+D:\Dev Project\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.pdb
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.exe.config
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.exe
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.pdb
