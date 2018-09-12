@@ -9,3 +9,12 @@ D:\Dev Project\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.pdb
 D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.exe.config
 D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.exe
 D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.pdb
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.exe
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.pdb
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\IrisSkin2.dll
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\log4net.dll
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csprojResolveAssemblyReference.cache
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmLogin.resources
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.Properties.Resources.resources
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csproj.GenerateResource.Cache
