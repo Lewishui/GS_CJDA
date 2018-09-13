@@ -18,3 +18,5 @@ D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csprojResolveAssem
 D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmLogin.resources
 D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.Properties.Resources.resources
 D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csproj.GenerateResource.Cache
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmAboutBox.resources
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmMain.resources
