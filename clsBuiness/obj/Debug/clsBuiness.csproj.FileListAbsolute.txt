@@ -1,0 +1,5 @@
+F:\mysteap\Devpro\GS_scan\GS_CJDA\clsBuiness\bin\Debug\clsBuiness.dll
+F:\mysteap\Devpro\GS_scan\GS_CJDA\clsBuiness\bin\Debug\clsBuiness.pdb
+F:\mysteap\Devpro\GS_scan\GS_CJDA\clsBuiness\obj\Debug\clsBuiness.csprojResolveAssemblyReference.cache
+F:\mysteap\Devpro\GS_scan\GS_CJDA\clsBuiness\obj\Debug\clsBuiness.dll
+F:\mysteap\Devpro\GS_scan\GS_CJDA\clsBuiness\obj\Debug\clsBuiness.pdb

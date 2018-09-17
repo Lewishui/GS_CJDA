@@ -20,3 +20,32 @@ D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.Properties.Resourc
 D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csproj.GenerateResource.Cache
 D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmAboutBox.resources
 D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmMain.resources
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.exe.config
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.exe
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.pdb
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.exe
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.pdb
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\bin\Debug\IrisSkin2.dll
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\bin\Debug\log4net.dll
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csprojResolveAssemblyReference.cache
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmAboutBox.resources
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmLogin.resources
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmMain.resources
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.Properties.Resources.resources
+F:\mysteap\Devpro\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csproj.GenerateResource.Cache
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.exe.config
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.exe
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.pdb
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.exe
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\bin\Debug\GS_CJDA.pdb
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\bin\Debug\IrisSkin2.dll
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\bin\Debug\log4net.dll
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csprojResolveAssemblyReference.cache
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmAboutBox.resources
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmLogin.resources
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmMain.resources
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.Properties.Resources.resources
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csproj.GenerateResource.Cache
+F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmMainImage.resources
