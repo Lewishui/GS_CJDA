@@ -1,0 +1,5 @@
+D:\Dev Project\城建档案\GS_CJDA\clsdatabaseinfo\bin\Debug\clsdatabaseinfo.dll
+D:\Dev Project\城建档案\GS_CJDA\clsdatabaseinfo\bin\Debug\clsdatabaseinfo.pdb
+D:\Dev Project\城建档案\GS_CJDA\clsdatabaseinfo\obj\Debug\clsdatabaseinfo.csprojResolveAssemblyReference.cache
+D:\Dev Project\城建档案\GS_CJDA\clsdatabaseinfo\obj\Debug\clsdatabaseinfo.dll
+D:\Dev Project\城建档案\GS_CJDA\clsdatabaseinfo\obj\Debug\clsdatabaseinfo.pdb

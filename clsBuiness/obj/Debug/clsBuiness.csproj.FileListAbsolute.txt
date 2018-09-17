@@ -3,3 +3,13 @@ F:\mysteap\Devpro\GS_scan\GS_CJDA\clsBuiness\bin\Debug\clsBuiness.pdb
 F:\mysteap\Devpro\GS_scan\GS_CJDA\clsBuiness\obj\Debug\clsBuiness.csprojResolveAssemblyReference.cache
 F:\mysteap\Devpro\GS_scan\GS_CJDA\clsBuiness\obj\Debug\clsBuiness.dll
 F:\mysteap\Devpro\GS_scan\GS_CJDA\clsBuiness\obj\Debug\clsBuiness.pdb
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\bin\Debug\clsBuiness.dll
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\bin\Debug\clsBuiness.pdb
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\obj\Debug\clsBuiness.csprojResolveAssemblyReference.cache
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\obj\Debug\clsBuiness.dll
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\obj\Debug\clsBuiness.pdb
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\bin\Debug\log4net.dll
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\bin\Debug\clsdatabaseinfo.dll
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\bin\Debug\clsdatabaseinfo.pdb
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\bin\Debug\fontbox-1.7.0.dll
+D:\Dev Project\城建档案\GS_CJDA\clsBuiness\bin\Debug\itextsharp.dll

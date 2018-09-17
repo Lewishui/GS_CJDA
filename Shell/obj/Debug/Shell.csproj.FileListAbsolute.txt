@@ -1,0 +1,22 @@
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\bin\Debug\GongShell.XML
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\bin\Debug\GongShell.dll
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\bin\Debug\GongShell.pdb
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\obj\Debug\Shell.csprojResolveAssemblyReference.cache
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\obj\Debug\GongSolutions.Shell.FileDialogToolbar.resources
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\obj\Debug\GongSolutions.Shell.PlacesToolbar.resources
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\obj\Debug\GongSolutions.Shell.Properties.Resources.resources
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\obj\Debug\GongSolutions.Shell.ShellItemBrowseForm.resources
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\obj\Debug\GongShell.dll
+C:\mysteap\work_office\ProjectOut\RuanShanLvYou\DCTS\Shell\obj\Debug\GongShell.pdb
+D:\Dev Project\城建档案\GS_CJDA\Shell\bin\Debug\GongShell.XML
+D:\Dev Project\城建档案\GS_CJDA\Shell\bin\Debug\GongShell.dll
+D:\Dev Project\城建档案\GS_CJDA\Shell\bin\Debug\GongShell.pdb
+D:\Dev Project\城建档案\GS_CJDA\Shell\obj\Debug\Shell.csprojResolveAssemblyReference.cache
+D:\Dev Project\城建档案\GS_CJDA\Shell\obj\Debug\GongSolutions.Shell.FileDialogToolbar.resources
+D:\Dev Project\城建档案\GS_CJDA\Shell\obj\Debug\GongSolutions.Shell.PlacesToolbar.resources
+D:\Dev Project\城建档案\GS_CJDA\Shell\obj\Debug\GongSolutions.Shell.Properties.Resources.resources
+D:\Dev Project\城建档案\GS_CJDA\Shell\obj\Debug\GongSolutions.Shell.ShellItemBrowseForm.resources
+D:\Dev Project\城建档案\GS_CJDA\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\Dev Project\城建档案\GS_CJDA\Shell\obj\Debug\GongShell.dll
+D:\Dev Project\城建档案\GS_CJDA\Shell\obj\Debug\GongShell.pdb

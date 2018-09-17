@@ -13,3 +13,8 @@ F:\mysteap\Devpro\GS_scan\GS_CJDA\clsCommon\obj\Debug\clsCommon.dll
 F:\mysteap\Devpro\GS_scan\GS_CJDA\clsCommon\obj\Debug\clsCommon.pdb
 F:\mysteap\Devpro\GS_scan\GS_CJDA\clsCommon\bin\Debug\clsCommon.dll
 F:\mysteap\Devpro\GS_scan\GS_CJDA\clsCommon\bin\Debug\clsCommon.pdb
+D:\Dev Project\城建档案\GS_CJDA\clsCommon\bin\Debug\clsCommon.dll
+D:\Dev Project\城建档案\GS_CJDA\clsCommon\bin\Debug\clsCommon.pdb
+D:\Dev Project\城建档案\GS_CJDA\clsCommon\obj\Debug\clsCommon.csprojResolveAssemblyReference.cache
+D:\Dev Project\城建档案\GS_CJDA\clsCommon\obj\Debug\clsCommon.dll
+D:\Dev Project\城建档案\GS_CJDA\clsCommon\obj\Debug\clsCommon.pdb

@@ -49,3 +49,15 @@ F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmMain.resources
 F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.Properties.Resources.resources
 F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.csproj.GenerateResource.Cache
 F:\mysteap\Devpro\GS_scan\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmMainImage.resources
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmMainImage.resources
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\obj\Debug\GS_CJDA.frmMessageShow.resources
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\clsBuiness.dll
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\clsCommon.dll
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\clsBuiness.pdb
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\clsCommon.pdb
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\clsdatabaseinfo.dll
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\GongShell.dll
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\clsdatabaseinfo.pdb
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\GongShell.pdb
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\GongShell.xml
+D:\Dev Project\城建档案\GS_CJDA\GS_CJDA\bin\Debug\itextsharp.dll

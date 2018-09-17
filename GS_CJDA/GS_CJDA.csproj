@@ -77,6 +77,12 @@
     <Compile Include="frmMainImage.Designer.cs">
       <DependentUpon>frmMainImage.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMessageShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageShow.Designer.cs">
+      <DependentUpon>frmMessageShow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAboutBox.resx">
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainImage.resx">
       <DependentUpon>frmMainImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageShow.resx">
+      <DependentUpon>frmMessageShow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -116,6 +125,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\psd24876副本.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\clsBuiness\clsBuiness.csproj">
+      <Project>{9a387091-419f-4ae6-b4a2-db1bf1d5566b}</Project>
+      <Name>clsBuiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clsCommon\clsCommon.csproj">
+      <Project>{aeb6c044-d3bf-4d45-b782-be3c92f05089}</Project>
+      <Name>clsCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clsdatabaseinfo\clsdatabaseinfo.csproj">
+      <Project>{f1d4b914-885e-4c86-b69b-5036ddd28a58}</Project>
+      <Name>clsdatabaseinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shell\Shell.csproj">
+      <Project>{711CCF1F-6B8F-4E97-8D84-0EE679C83B41}</Project>
+      <Name>Shell</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

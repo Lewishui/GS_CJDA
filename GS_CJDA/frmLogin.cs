@@ -18,7 +18,7 @@ namespace GS_CJDA
         private CheckBox chkSaveInfo;
         Sunisoft.IrisSkin.SkinEngine se = null;
         frmAboutBox aboutbox;
-        private frmMain frmMain;
+        private frmMainImage frmMainImage;
         //存放要显示的信息
         List<string> messages;
         //要显示信息的下标索引
@@ -32,22 +32,22 @@ namespace GS_CJDA
         private void btmain_Click(object sender, EventArgs e)
         {
 
-            if (frmMain == null)
+            if (frmMainImage == null)
             {
-                frmMain = new frmMain();
-                frmMain.FormClosed += new FormClosedEventHandler(FrmOMS_FormClosed);
+                frmMainImage = new frmMainImage();
+                frmMainImage.FormClosed += new FormClosedEventHandler(FrmOMS_FormClosed);
             }
-            if (frmMain == null)
+            if (frmMainImage == null)
             {
-                frmMain = new frmMain();
+                frmMainImage = new frmMainImage();
             }
-            frmMain.Show(this.dockPanel2);
+            frmMainImage.Show(this.dockPanel2);
         }
         void FrmOMS_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (sender is frmMain)
+            if (sender is frmMainImage)
             {
-                frmMain = null;
+                frmMainImage = null;
             }
         }
 
