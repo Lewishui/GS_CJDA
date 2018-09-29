@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -121,12 +122,18 @@ namespace clsBuiness
                     //对比度
 
                     bp = KiContrast(bp, 20);
+
+                   RemoveBlackEdge(bp);
+
                     ptbNewPic.Image = bp;
                     int a = bp.Width;
                     int b0 = bp.Height;
                     ptbNewPic.Width = a;
                     ptbNewPic.Height = b0;
+
+               
                     Save(item.FilName);
+
 
                 }
                 ///
@@ -300,5 +307,158 @@ namespace clsBuiness
                 document.Close();
             }
         }
+
+
+
+        #region 去黑
+        /// <summary>
+        /// 自动去除图像扫描黑边
+        /// </summary>
+        /// <param name="fileName"></param>
+        public static void AutoCutBlackEdge(string fileName)
+        {
+            ////打开图像
+            //Bitmap bmp = OpenImage(fileName);
+
+            //RemoveBlackEdge(bmp);
+            ////保存图像
+            //SaveImage(bmp, fileName);
+        }
+
+        private static byte[] rgbValues; // 目标数组内存
+
+        /// <summary>
+        /// 图像去黑边
+        /// </summary>
+        /// <param name="bmp"></param>
+        /// <returns></returns>
+        private static Bitmap RemoveBlackEdge(Bitmap bmp)
+        {
+            System.Drawing.Rectangle rect = new System.Drawing.Rectangle(0, 0, bmp.Width, bmp.Height);
+            BitmapData bmpData = bmp.LockBits(rect, ImageLockMode.ReadWrite, bmp.PixelFormat);
+
+            // 获取图像参数  
+            int w = bmpData.Width;
+            int h = bmpData.Height;
+            int stride = bmpData.Stride;  // 扫描线的宽度 
+            double picByteSize = GetPicByteSize(bmp.PixelFormat);
+            int bWidth = (int)Math.Ceiling(picByteSize * w); //显示宽度
+            int offset = stride - bWidth;  // 显示宽度与扫描线宽度的间隙  
+            IntPtr ptr = bmpData.Scan0;   // 获取bmpData的内存起始位置  
+            int scanBytes = stride * h;  // 用stride宽度，表示这是内存区域的大小
+
+            // 分别设置两个位置指针，指向源数组和目标数组  
+            int posScan = 0;
+            rgbValues = new byte[scanBytes];  // 为目标数组分配内存  
+            Marshal.Copy(ptr, rgbValues, 0, scanBytes);  // 将图像数据拷贝到rgbValues中  
+
+            bool isPass = true;
+            int i = 0, j = 0;
+            int cutW = (int)(bWidth * 0.2); //2%宽度（可修改）
+            int cutH = (int)(h * 0.2);      //2%高度（可修改）
+            int posLen = (int)(picByteSize * 18); //继续查找深度为8的倍数（可修改）
+            //左边
+            for (i = 0; i < h; i++)
+            {
+                for (j = 0; j < bWidth; j++)
+                {
+                    isPass = true;
+                    if (rgbValues[posScan] < 255) rgbValues[posScan] = 255;
+
+                    if (rgbValues[posScan + 1] == 255)
+                    {
+                        for (int m = 1; m <= posLen; m++)
+                        {
+                            if (rgbValues[posScan + m] < 255) isPass = false;
+                        }
+                    }
+                    if (rgbValues[posScan + 1] < 255 || bWidth / 2 < j) isPass = false;
+                    recCheck(ref rgbValues, posScan, h, stride, true);
+
+                    posScan++;
+                    if (j >= cutW && isPass) break;
+                }
+                // 跳过图像数据每行未用空间的字节，length = stride - width * bytePerPixel  
+                if (j == bWidth) posScan += offset;
+                else posScan += (offset + bWidth - j - 1);
+            }
+            //右边
+            posScan = scanBytes - 1;
+            for (i = h - 1; i >= 0; i--)
+            {
+                posScan -= offset;
+                for (j = bWidth - 1; j >= 0; j--)
+                {
+                    isPass = true;
+                    if (rgbValues[posScan] < 255) rgbValues[posScan] = 255;
+
+                    if (rgbValues[posScan - 1] == 255)
+                    {
+                        for (int m = 1; m <= posLen; m++)
+                        {
+                            if (rgbValues[posScan - m] < 255) isPass = false;
+                        }
+                    }
+                    if (rgbValues[posScan - 1] < 255 || bWidth / 2 > j) isPass = false;
+                    recCheck(ref rgbValues, posScan, h, stride, false);
+
+                    posScan--;
+                    if (cutH < (h - i))
+                        if (j < (bWidth - cutW) && isPass) break;
+                }
+                // 跳过图像数据每行未用空间的字节，length = stride - width * bytePerPixel
+                if (j != -1) posScan -= j;
+            }
+
+            // 内存解锁  
+            Marshal.Copy(rgbValues, 0, ptr, scanBytes);
+            bmp.UnlockBits(bmpData);  // 解锁内存区域  
+
+            return bmp;
+        }
+
+        /// <summary>
+        /// 上下去除黑边时，临近黑点去除
+        /// </summary>
+        /// <param name="rgbValues"></param>
+        /// <param name="posScan"></param>
+        /// <param name="h"></param>
+        /// <param name="stride"></param>
+        /// <param name="islLeft"></param>
+        private static void recCheck(ref byte[] rgbValues, int posScan, int h, int stride, bool islLeft)
+        {
+            int scanBytes = h * stride;
+            int cutH = (int)(h * 0.01); //临近最大1%高度（可修改）
+            for (int i = 1; i <= cutH; i++)
+            {
+                int befRow = 0;
+                if (islLeft && (posScan - stride * i) > 0)
+                {
+                    befRow = posScan - stride * i;
+                }
+                else if (!islLeft && (posScan + stride * i) < scanBytes)
+                {
+                    befRow = posScan + stride * i;
+                }
+                if (rgbValues[befRow] < 255) rgbValues[befRow] = 255;
+                else break;
+            }
+        }
+
+        private static double GetPicByteSize(PixelFormat bmpPixelFormat)
+        {
+            double picByteSize;
+            if (bmpPixelFormat == PixelFormat.Format24bppRgb) picByteSize = 3;
+            else if (bmpPixelFormat == PixelFormat.Format32bppArgb) picByteSize = 4;
+            else if (bmpPixelFormat == PixelFormat.Format8bppIndexed) picByteSize = (double)3 / 24 * 8;
+            else if (bmpPixelFormat == PixelFormat.Format1bppIndexed) picByteSize = (double)3 / 24;
+            else if (bmpPixelFormat == PixelFormat.Format4bppIndexed) picByteSize = (double)3 / 24 * 4;
+            else picByteSize = 3;
+
+            return picByteSize;
+        }
+        #endregion
+
+
     }
 }
